@@ -1,0 +1,37 @@
+2022_Revenue = CALCULATE([Total_Revenue],'Date'[Year]=2022)
+
+2023_Revenue = CALCULATE([Total_Revenue],'Date'[Year]=2023)
+
+2023_Revenue_Rank = RANKX(ALLSELECTED(Products[Product_Name]),[2023_Revenue])
+
+Avg_Daily_Units_Sold = CALCULATE(AVERAGEX(ALLSELECTED('Date'[Date]),[Total_Units]),DATESBETWEEN('Date'[Date],[MAX Sales Date]-30,[MAX Sales Date]))
+
+Day_Count = CALCULATE(DISTINCTCOUNT(Sales[Date]),'Date'[Year]=2023)
+
+Days_Of_Inventory = 
+if([Avg_Daily_Units_Sold]=0,BLANK(),
+DIVIDE([On_Hand],[Avg_Daily_Units_Sold]))
+
+Max Sales Date = CALCULATE(MAX(Sales[Date]),ALLSELECTED(Sales))
+
+On_Hand = SUM(Inventory[Stock_On_Hand])
+
+Prg_to_Target = DIVIDE([2023_Revenue],[Target])
+
+Running_Total_Revenue = CALCULATE([Total_Revenue],DATESBETWEEN('Date'[Date],STARTOFYEAR('Date'[Date]),MAX('Date'[Date])))
+
+Target = 85000000
+
+Top_and_Bottom_Product = "Top_and_Bottom_Products"
+
+Total_Cost = SUM(Sales[Cost])
+
+Total_Profit = SUM(Sales[Profit])
+
+Total_Revenue = SUM(Sales[Revenue])
+
+Total_Units = SUM(Sales[Units])
+
+YOY_Diff = DIVIDE([2023_Revenue],[2022_Revenue])-1
+
+YOY_Diff_2 = IF([2022_Revenue]=0,BLANK(),[YOY_Diff])
