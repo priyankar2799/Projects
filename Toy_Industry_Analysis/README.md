@@ -113,7 +113,7 @@ Challenges & Solutions
 
 2. Handling Missing Data	Imputed missing values or excluded incomplete records.
 
-3.. Dashboard Layout	Kept the design clean, simple, and easy to navigate.
+3. Dashboard Layout	Kept the design clean, simple, and easy to navigate.
 
 Conclusion & Next Steps
 
