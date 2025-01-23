@@ -48,14 +48,14 @@ Key Metrics: Revenue, Quantity, Rating, Product wise revenue and rating, Top per
  ![image](https://github.com/user-attachments/assets/3db53c4e-c7a9-429e-a486-1610660ffb3b)
 
 
-3.	Customer Satisfaction Rate
-o	Key Metrics: Total users, Active users, Gain users and Lost users by gender, Users by age
+2.	Customer Satisfaction Rate
+Key Metrics: Total users, Active users, Gain users and Lost users by gender, Users by age
 
  ![image](https://github.com/user-attachments/assets/83327788-cd37-4895-9068-8b5d14ca4c6f)
 
 
-5.	City Level Summary 
-o	Key Metrics:  Total Sales, Quantity, Ratings, Sale, Rating, Active users by city
+3.	City Level Summary 
+Key Metrics:  Total Sales, Quantity, Ratings, Sale, Rating, Active users by city
 
 ![image](https://github.com/user-attachments/assets/dedcb739-7943-43de-90af-ae76fc8b8559)
 
@@ -77,7 +77,7 @@ Insights
 
 Tools & Techniques Used
 
-	Tools:
+Tools:
 
 1.	Power BI
 
@@ -86,7 +86,7 @@ Tools & Techniques Used
 3.	DAX
 
 
-	Techniques:
+Techniques:
 
 1.	Data Cleaning: Removed duplicates, handled missing data.
 
@@ -99,13 +99,12 @@ Tools & Techniques Used
 
 Challenges & Solutions
 
-Challenge	Solution
 
-Data Inconsistencies	Power Query for data cleaning.
+1. Data Inconsistencies	Power Query for data cleaning.
 
-Handling Missing Data	Imputed missing values or excluded incomplete records.
+2. Handling Missing Data	Imputed missing values or excluded incomplete records.
 
-Dashboard Layout	Kept the design clean, simple, and easy to navigate.
+3. Dashboard Layout	Kept the design clean, simple, and easy to navigate.
 
 	
 Conclusion & Next Steps
