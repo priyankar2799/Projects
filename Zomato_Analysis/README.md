@@ -2,9 +2,9 @@ Zomato Project: Operational Analysis
 
 Project Overview:
 The Zomato Project involves creating Interactive Power BI Dashboard to visualize sales, customer and city level data for Zomato. This project aims to provide insights into the following areas:
-•	Sales Trends
-•	Customer Satisfaction Rate
-•	City Level Summary 
+1.	Sales Trends
+2.	Customer Satisfaction Rate
+3.	City Level Summary 
 
 
 Objectives:
@@ -20,24 +20,24 @@ Data Sources & Cleaning Process
 
 Data Sources:
 
-•	Food Table
+1.	Food Table
 
-•	Orders
+2.	Orders
 
-•	Restaurants
+3.	Restaurants
 
-•	Users
+4.	Users
 
 
 Data Cleaning Techniques:
 
-•	Duplicate Removal
+1.	Duplicate Removal
 
-•	Handling Missing Values
+2.	Handling Missing Values
 
-•	Creation of Custom Columns 
+3.	Creation of Custom Columns 
 
-•	DAX Calculated Measures
+4.	DAX Calculated Measures
 
 
 Key Dashboards
@@ -60,41 +60,41 @@ o	Key Metrics:  Total Sales, Quantity, Ratings, Sale, Rating, Active users by ci
 ![image](https://github.com/user-attachments/assets/dedcb739-7943-43de-90af-ae76fc8b8559)
 
     
- 5. Insights
+Insights
 
-•	Tirupati has consistently generated the highest revenue, while BBK Chattarpur, Delhi lags behind.
+1.	Tirupati has consistently generated the highest revenue, while BBK Chattarpur, Delhi lags behind.
 
-•	Veg category has generated the highest revenue followed by Non Veg and others.
+2.	Veg category has generated the highest revenue followed by Non Veg and others.
 
-•	From 2017-2020, there is raise in Revenue in the year 2018 followed by dip in coming years.
+3.	From 2017-2020, there is raise in Revenue in the year 2018 followed by dip in coming years.
 
-•	Lost customer rate is higher than gained customer rate.
+4.	Lost customer rate is higher than gained customer rate.
 
-•	In 2020, Tirupati being the highest revenue generating city has lost 116 users and Bikaner having highest active users has lost 196 users.
+5	In 2020, Tirupati being the highest revenue generating city has lost 116 users and Bikaner having highest active users has lost 196 users.
 
-•	The analysis reveals that the majority of active users fall within the age group of 22–26 years, with 23 years being the most prominent age. In contrast, non-active users are predominantly in the age groups of 18 years and 53 years.
+6. The analysis reveals that the majority of active users fall within the age group of 22–26 years, with 23 years being the most prominent age. In contrast, non-active users are predominantly in the age groups of 18 years and 53 years.
 
 
 Tools & Techniques Used
 
-•	Tools:
+	Tools:
 
-o	Power BI
+1.	Power BI
 
-o	Power Query
+2.	Power Query
 
-o	DAX
+3.	DAX
 
 
-•	Techniques:
+	Techniques:
 
-o	Data Cleaning: Removed duplicates, handled missing data.
+1.	Data Cleaning: Removed duplicates, handled missing data.
 
-o	Calculated Measures: Using DAX for custom metrics.
+2.	Calculated Measures: Using DAX for custom metrics.
 
-o	Visualizations: Created Bar and Line charts, Tables.
+3.	Visualizations: Created Bar and Line charts, Tables.
 
-o	Dashboard Design: Simple, intuitive design with clear KPIs.
+4.	Dashboard Design: Simple, intuitive design with clear KPIs.
 
 
 Challenges & Solutions
@@ -110,17 +110,19 @@ Dashboard Layout	Kept the design clean, simple, and easy to navigate.
 	
 Conclusion & Next Steps
 
-•	Conclusion: The Zomato Dashboard provides valuable insights into Sales optimization, enhance customer satisfaction, and track city level users, helping the company make data-driven decisions.
+Conclusion: 
+
+The Zomato Dashboard provides valuable insights into Sales optimization, enhance customer satisfaction, and track city level users, helping the company make data-driven decisions.
 
 
 Next Steps:
 
-•	Focus marketing efforts on low-performing cities and categories while capitalizing on top-performing cities.
+1.	Focus marketing efforts on low-performing cities and categories while capitalizing on top-performing cities.
 
-•	Use loyalty programs and personalized offers to improve customer retention and satisfaction.
+2.	Use loyalty programs and personalized offers to improve customer retention and satisfaction.
 
-•	Adjust menu offerings based on regional preferences.
+3.	Adjust menu offerings based on regional preferences.
 
-•	Leverage dashboards for data-driven decisions, focusing on scaling operations in high-potential areas.
+4.	Leverage dashboards for data-driven decisions, focusing on scaling operations in high-potential areas.
 
-•	Plan location-specific promotions and marketing strategies based on city and category performance.
+5.	Plan location-specific promotions and marketing strategies based on city and category performance.
