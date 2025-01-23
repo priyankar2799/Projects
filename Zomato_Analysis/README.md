@@ -46,10 +46,15 @@ o	Key Metrics:  Total Sales, Quantity, Ratings, Sale, Rating, Active users by ci
     
  5. Insights
 •	Tirupati has consistently generated the highest revenue, while BBK Chattarpur, Delhi lags behind.
+
 •	Veg category has generated the highest revenue followed by Non Veg and others.
+
 •	From 2017-2020, there is raise in Revenue in the year 2018 followed by dip in coming years.
+
 •	Lost customer rate is higher than gained customer rate.
+
 •	In 2020, Tirupati being the highest revenue generating city has lost 116 users and Bikaner having highest active users has lost 196 users.
+
 •	The analysis reveals that the majority of active users fall within the age group of 22–26 years, with 23 years being the most prominent age. In contrast, non-active users are predominantly in the age groups of 18 years and 53 years.
 
 Tools & Techniques Used
