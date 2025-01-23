@@ -6,6 +6,7 @@ The Zomato Project involves creating Interactive Power BI Dashboard to visualize
 •	Customer Satisfaction Rate
 •	City Level Summary 
 
+
 Objectives:
 1.	Analyse Sales Performance: Identify sales trends across products, cities, and time periods to optimize inventory, menu offerings, and pricing strategies.
 2.	Enhance Customer Retention: Use customer satisfaction metrics, Gain customers and Lost customers, to develop strategies for retaining and engaging customers.
@@ -13,6 +14,7 @@ Objectives:
 4.	Monitor City-Specific Challenges: Address city-specific operational issues by analyzing sale, rating, active users and other KPIs.
 5.	Support Decision-Making: Enable data-driven decisions for stakeholders.
 6.	Highlight Trends & Anomalies: Identify insights for business optimization.
+
 
 Data Sources & Cleaning Process
 
@@ -26,6 +28,7 @@ Data Sources:
 
 •	Users
 
+
 Data Cleaning Techniques:
 
 •	Duplicate Removal
@@ -35,6 +38,7 @@ Data Cleaning Techniques:
 •	Creation of Custom Columns 
 
 •	DAX Calculated Measures
+
 
 Key Dashboards
 
@@ -70,6 +74,7 @@ o	Key Metrics:  Total Sales, Quantity, Ratings, Sale, Rating, Active users by ci
 
 •	The analysis reveals that the majority of active users fall within the age group of 22–26 years, with 23 years being the most prominent age. In contrast, non-active users are predominantly in the age groups of 18 years and 53 years.
 
+
 Tools & Techniques Used
 
 •	Tools:
@@ -79,6 +84,7 @@ o	Power BI
 o	Power Query
 
 o	DAX
+
 
 •	Techniques:
 
@@ -90,6 +96,7 @@ o	Visualizations: Created Bar and Line charts, Tables.
 
 o	Dashboard Design: Simple, intuitive design with clear KPIs.
 
+
 Challenges & Solutions
 
 Challenge	Solution
@@ -99,10 +106,12 @@ Data Inconsistencies	Power Query for data cleaning.
 Handling Missing Data	Imputed missing values or excluded incomplete records.
 
 Dashboard Layout	Kept the design clean, simple, and easy to navigate.
+
 	
 Conclusion & Next Steps
 
 •	Conclusion: The Zomato Dashboard provides valuable insights into Sales optimization, enhance customer satisfaction, and track city level users, helping the company make data-driven decisions.
+
 
 Next Steps:
 
