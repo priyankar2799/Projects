@@ -1,0 +1,39 @@
+Users = DISTINCTCOUNT(users[user_id])
+
+Top_N_Sale = 
+VAR RankValue =RANKX(ALL(orders[city]),[Sale_value],,DESC)
+var SelectedRank = SELECTEDVALUE(RankTable[No])
+RETURN
+if(SelectedRank=0,[Sale_value],
+IF(RankValue <= SelectedRank, [Sale_value], BLANK())
+)
+
+Sale_value = SUM(orders[Value])
+
+Ratings = COUNT(restaurant[rating])
+
+PrevYr = [CurrYr]-1
+
+PrevYrSales = VAR Yr= [PrevYr]
+RETURN
+CALCULATE([Sale_value],orders[Year]=Yr)
+
+Order_count = COUNT(orders[order_date])
+
+LostUsers = var filterusers=FILTER(SUMMARIZE(users,users[user_id]),AND([PrevYrSales]>0,[CurrYrSales]<=0))
+return CALCULATE([Users],filterusers)
+
+GainUsers = var filterusers= FILTER(SUMMARIZE(users,users[user_id]),AND([CurrYrSales]>0,[PrevYrSales]<=0))
+return
+CALCULATE([Users],filterusers)
+
+Dynamic_title = "zomato provides services in "&COUNT(orders[city])&" cities with "&DISTINCTCOUNT(users[user_id])&" users making "&COUNT(orders[user_id])&" orders"
+
+CurrYr = 2020
+
+CurrYrSales = VAR Yr= [CurrYr]
+RETURN
+CALCULATE([Sale_value],orders[Year]=Yr
+
+ActiveUsers = DISTINCTCOUNT(orders[user_id])
+
