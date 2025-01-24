@@ -21,5 +21,4 @@ With a background in automation, I aim to incorporate these skills into streamli
 
 🔍 Let’s Connect!
 
-Join me on this exciting journey of data exploration. Together, we’ll unlock the potential of your data and drive meaningful outcomes. Let’s connect and bring your data to life! 🌐✨
 Reach me at priyankar2799@gmail.com or on LinkedIn at www.linkedin.com/in/priyankar27. Let's connect and learn together!
